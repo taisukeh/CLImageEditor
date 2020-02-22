@@ -43,35 +43,35 @@ Pod::Spec.new do |s|
   s.subspec 'StickerTool' do |sub|
     sub.dependency 'CLImageEditor/Core'
     sub.source_files  = 'OptionalImageTools/CLStickerTool/*.{h,m,mm}'
-    sub.private_header_files = 'OptionalImageTools/CLStickerTool/**.h'
+    sub.private_header_files = 'OptionalImageTools/CLStickerTool/*.h'
     sub.header_mappings_dir = 'OptionalImageTools/CLStickerTool/'
   end
 
   s.subspec 'EmoticonTool' do |sub|
     sub.dependency 'CLImageEditor/Core'
     sub.source_files  = 'OptionalImageTools/CLEmoticonTool/*.{h,m,mm}'
-    sub.private_header_files = 'OptionalImageTools/CLEmoticonTool/**.h'
+    sub.private_header_files = 'OptionalImageTools/CLEmoticonTool/*.h'
     sub.header_mappings_dir = 'OptionalImageTools/CLEmoticonTool/'
   end
 
   s.subspec 'ResizeTool' do |sub|
     sub.dependency 'CLImageEditor/Core'
     sub.source_files  = 'OptionalImageTools/CLResizeTool/*.{h,m,mm}'
-    sub.private_header_files = 'OptionalImageTools/CLResizeTool/**.h'
+    sub.private_header_files = 'OptionalImageTools/CLResizeTool/*.h'
     sub.header_mappings_dir = 'OptionalImageTools/CLResizeTool/'
   end
 
   s.subspec 'TextTool' do |sub|
     sub.dependency 'CLImageEditor/Core'
     sub.source_files  = 'OptionalImageTools/CLTextTool/*.{h,m,mm}'
-    sub.private_header_files = 'OptionalImageTools/CLTextTool/**.h'
+    sub.private_header_files = 'OptionalImageTools/CLTextTool/*.h'
     sub.header_mappings_dir = 'OptionalImageTools/CLTextTool/'
   end
 
   s.subspec 'SplashTool' do |sub|
     sub.dependency 'CLImageEditor/Core'
     sub.source_files  = 'OptionalImageTools/CLSplashTool/*.{h,m,mm}'
-    sub.private_header_files = 'OptionalImageTools/CLSplashTool/**.h'
+    sub.private_header_files = 'OptionalImageTools/CLSplashTool/*.h'
     sub.header_mappings_dir = 'OptionalImageTools/CLSplashTool/'
   end
 
